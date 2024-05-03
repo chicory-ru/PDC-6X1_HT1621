@@ -67,7 +67,6 @@ class HT1621():
             text = ''.join(reversed(f'      {num}')).upper()
         
         address = 0x000
-        n = 0
         for n, i in enumerate(text):
             if i == '.':
                 continue
